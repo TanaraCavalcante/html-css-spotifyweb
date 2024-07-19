@@ -34,16 +34,22 @@ footer{
 
 header{
     background-color: black;
+    flex-basis: 80px;
 }
 
 #content-sito {
     background-color: darkslategray;
+    flex-basis: calc(100% - 80px);
 }
 
 
 /*------------
 Asdfsfsscdsfs
 -------------*/
+
+header i{
+    color: white;  
+}
 
 header a{
     display: none;
