@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    width: 500px;
+}
+
+main{
+    height: calc(100vh - 80px);
+    background-color: rgb(43, 41, 41);
+    overflow: auto;
+}
+
+footer{
+    height: 80px;
+    background-color: gray;;
+}
