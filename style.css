@@ -9,13 +9,22 @@
     width: 500px;
 }
 
+/*------------
+     utilits
+--------------*/
+
+.border{
+    border: 1px dashed yellowgreen;
+}
+
 main{
-    height: calc(100vh - 80px);
+    height:calc(100vh - 80px);
     background-color: rgb(43, 41, 41);
     overflow: auto;
 }
 
 footer{
     height: 80px;
-    background-color: gray;;
+    background-color: gray;  
 }
+
