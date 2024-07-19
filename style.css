@@ -10,7 +10,7 @@
 }
 
 /*------------
-     Utilits
+     tags
 --------------*/
 
 .border{
@@ -28,16 +28,27 @@ footer{
     background-color: gray;  
 }
 
-.sito{
+#sito{
     display: flex;
 }
 
 header{
     background-color: black;
-    flex-basis: 80px;
 }
 
-section {
+#content-sito {
     background-color: darkslategray;
-    flex-basis: calc(100vw -80px);
 }
+
+
+/*------------
+Asdfsfsscdsfs
+-------------*/
+
+header a{
+    display: none;
+}
+
+
+
+
