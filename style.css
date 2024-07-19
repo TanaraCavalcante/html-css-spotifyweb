@@ -34,38 +34,63 @@ footer{
 
 header{
     background-color: black;
-    flex-basis: 50px;
+    color: white;
+    padding: 10px 0;
+    flex-basis: 40px;
+    height: calc(100vh - 80px);
+
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #content-sito {
     background-color: darkslategray;
-    flex-basis: calc(100% - 50px);
+    flex-basis: calc(100% - 40px);
 }
 
 img{
     max-width: 100%;
 }
 
+ul{
+    list-style-type: none;
+}
+
 /*---------------------
     HEADER - Side-bar
 -----------------------*/
 
-header i{
-    color: white;  
-}
-
-header a{
+header a, span{
     display: none;
-}
-
-.sidebar-top{
-    text-align: center;
 }
 
 .logo{
     display: none;
 }
+
+.playlist{
+    display: none;
+}
+
+header img{
+    width: 70%;
+    margin: 20px 0 20px 5px;
+}
+
+.sidebar-top  ul ,
+.sidebar-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.sidebar-top  ul{
+    align-items: center;
+}
+
+
 
 
 
