@@ -34,18 +34,22 @@ footer{
 
 header{
     background-color: black;
-    flex-basis: 80px;
+    flex-basis: 50px;
+    display: flex;
 }
 
 #content-sito {
     background-color: darkslategray;
-    flex-basis: calc(100% - 80px);
+    flex-basis: calc(100% - 50px);
 }
 
+img{
+    max-width: 100%;
+}
 
-/*------------
-Asdfsfsscdsfs
--------------*/
+/*---------------------
+    HEADER - Side-bar
+-----------------------*/
 
 header i{
     color: white;  
@@ -54,6 +58,16 @@ header i{
 header a{
     display: none;
 }
+
+.sidebar-top{
+    text-align: center;
+}
+
+.logo{
+    display: none;
+}
+
+
 
 
 
