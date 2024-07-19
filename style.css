@@ -28,3 +28,16 @@ footer{
     background-color: gray;  
 }
 
+.sito{
+    display: flex;
+}
+
+header{
+    background-color: black;
+    flex-basis: 80px;
+}
+
+section {
+    background-color: darkslategray;
+    flex-basis: calc(100vw -80px);
+}
