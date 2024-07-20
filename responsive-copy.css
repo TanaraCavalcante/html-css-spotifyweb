@@ -1,0 +1,40 @@
+/*----------------------------
+  Responsive S (768px) Tablet
+ ---------------------------*/
+
+ @media screen and (min-width: 768px) {
+    header{
+        width: 150px;
+        align-items: start;
+    }
+
+    .logo-small{
+        display: none;
+    }
+
+    .logo{
+        display: block;
+    }
+
+    header a, span{
+        display: inline;
+    }
+
+    .playlist{
+        display: flex;
+    }
+ }
+
+/*---------------------------
+  Responsive MD (1024 px) PC
+----------------------------*/
+@media screen and (min-width: 1024px){
+
+}
+
+/*--------------------------
+ Responsive LG (1280 px) TV
+ --------------------------*/
+ @media screen and (min-width: 1280px){
+    
+ }
