@@ -27,26 +27,6 @@ main{
     overflow: auto;
 }
 
-footer{
-    height: 80px;
-    background-color: gray;  
-}
-
-header{
-    background-color: black;
-    color: rgba(255, 255, 255, 0.6);
-    padding: 10px 0;
-    font-size: 12px;
-    
-    width: 40px;
-    height: calc(100vh - 80px);
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
 #content-sito {
     background-color: darkslategray;
     flex-basis: 100%;
@@ -81,9 +61,24 @@ button{
 }
 
 
-/*!-----------------------*/
-/*! HEADER - Side-bar*/
-/*!-----------------------*/
+/*-----------------------*/
+/*  HEADER - Side-bar    */
+/*-----------------------*/
+
+header{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 10px 0;
+    font-size: 12px;
+    
+    width: 40px;
+    height: calc(100vh - 80px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 
 header a, span, .playlist{
     display: none;
@@ -126,6 +121,23 @@ header img{
 
 .sidebar-bottom :nth-child(3) {
     font-size: 18px;
+}
+
+/*------------------------*/
+/*        FOOTER          */
+/*------------------------*/
+
+footer {
+    height: 80px;
+    background-color: gray;  
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer *{
+    flex-basis: calc(100%/3 - 10px);
 }
 
 
