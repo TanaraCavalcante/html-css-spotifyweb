@@ -36,6 +36,7 @@ header{
     background-color: black;
     color: rgba(255, 255, 255, 0.6);
     padding: 10px 0;
+    font-size: 14px;
     
     width: 40px;
     height: calc(100vh - 80px);
@@ -58,7 +59,18 @@ img{
 
 ul{
     list-style-type: none;
-    padding-left: 10px;
+    gap: 5px;   
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+button{
+    background-color:rgba(255, 255, 255, 0.6);
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 18px;
 }
 
 /*---------------
@@ -68,6 +80,8 @@ ul{
     color: white;
 }
 
+
+
 /*!-----------------------*/
     /*!HEADER - Side-bar*/
 /*!-----------------------*/
@@ -76,13 +90,14 @@ header a, span, .playlist{
     display: none;
 }
 
+header i{
+    font-size: 18px;
+    margin-right: 5px;
+}
+
 header a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
-}
-
-header span, header a{
-    margin: 10px;
 }
 
 .logo{
@@ -94,11 +109,18 @@ header img{
     margin: 20px 0 20px 5px;
 }
 
-.sidebar-top  ul ,
-.sidebar-bottom {
+.sidebar-bottom,
+.sidebar-top {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
+    justify-items: left;
+    padding-left: 10px;
+}
+
+.playlist{
+    flex-direction: column;
+    gap: 10px;
 }
 
 .sidebar-bottom :nth-child(3) {

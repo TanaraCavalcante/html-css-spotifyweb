@@ -20,7 +20,7 @@
         display: inline;
     }
 
-    .sidebar-bottom{
-        padding-left: 10px;
+    .playlist{
+        display: flex;
     }
  }
