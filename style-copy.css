@@ -126,6 +126,28 @@ header img{
     margin-left: 40px;
 }
 
+#upgrade{
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.745);
+    position: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*------------------------*/
 /*        FOOTER          */
@@ -144,7 +166,4 @@ footer *{
     flex-basis: calc(100%/3 - 10px);
 }
 
-#upgrade{
-    height: 60px;
-    background-color: rgba(0, 0, 0, 0.745);
-}
+

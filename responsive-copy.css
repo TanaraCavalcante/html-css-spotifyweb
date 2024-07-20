@@ -27,6 +27,10 @@
     .playlist{
         display: flex;
     }
+
+    #content{
+        padding-left: 110px;
+    }
  }
 
 /*---------------------------
@@ -36,6 +40,10 @@
     header{
         width: 230px;
         font-size: 16px;
+    }
+
+    #content{
+        padding-left: 190px;
     }
 }
 
