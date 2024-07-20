@@ -1,0 +1,24 @@
+/*---------------------
+  Responsive S (570px)
+ ---------------------*/
+
+ @media screen and (min-width: 570px) {
+    header{
+        width: 150px;
+        align-items: start;
+        padding-left: 10px;
+    }
+
+    .logo-small{
+        display: none;
+    }
+
+    .logo{
+        display: block;
+        margin-left: 0;
+    }
+
+    header a, span{
+        display: inline;
+    }
+ }
