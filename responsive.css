@@ -1,8 +1,8 @@
-/*---------------------
-  Responsive S (570px)
- ---------------------*/
+/*----------------------------
+  Responsive S (768px) Tablet
+ ---------------------------*/
 
- @media screen and (min-width: 570px) {
+ @media screen and (min-width: 768px) {
     header{
         width: 150px;
         align-items: start;
@@ -23,4 +23,18 @@
     .playlist{
         display: flex;
     }
+ }
+
+/*---------------------------
+  Responsive MD (1024 px) PC
+----------------------------*/
+@media screen and (min-width: 1024px){
+
+}
+
+/*--------------------------
+ Responsive LG (1280 px) TV
+ --------------------------*/
+ @media screen and (min-width: 1280px){
+    
  }
