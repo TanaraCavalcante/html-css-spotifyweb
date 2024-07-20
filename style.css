@@ -9,6 +9,10 @@
     width: 500px;
 }
 
+.fixed {
+    position: fixed;
+  }
+
 /*------------
      tags
 --------------*/
@@ -36,7 +40,8 @@ header{
     background-color: black;
     color: white;
     padding: 10px 0;
-    flex-basis: 40px;
+    
+    width: 40px;
     height: calc(100vh - 80px);
 
     display: flex;
@@ -47,7 +52,8 @@ header{
 
 #content-sito {
     background-color: darkslategray;
-    flex-basis: calc(100% - 40px);
+    flex-basis: 100%;
+    margin-left: 40px;
 }
 
 img{
