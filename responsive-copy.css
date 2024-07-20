@@ -29,7 +29,10 @@
   Responsive MD (1024 px) PC
 ----------------------------*/
 @media screen and (min-width: 1024px){
-
+    header{
+        width: 230px;
+        font-size: 16px;
+    }
 }
 
 /*--------------------------
