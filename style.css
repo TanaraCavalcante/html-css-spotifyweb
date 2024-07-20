@@ -27,12 +27,6 @@ main{
     overflow: auto;
 }
 
-#content-sito {
-    background-color: darkslategray;
-    flex-basis: 100%;
-    margin-left: 40px;
-}
-
 img{
     max-width: 100%;
 }
@@ -59,7 +53,6 @@ button{
 .white{
     color: white;
 }
-
 
 /*-----------------------*/
 /*  HEADER - Side-bar    */
@@ -122,6 +115,18 @@ header img{
 .sidebar-bottom :nth-child(3) {
     font-size: 18px;
 }
+
+/*-----------------------*/
+/*       CONTENT         */
+/*-----------------------*/
+
+#content{
+    background-color: darkslategray;
+    flex-basis: 100%;
+    margin-left: 40px;
+}
+
+
 
 /*------------------------*/
 /*        FOOTER          */
