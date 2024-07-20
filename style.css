@@ -34,7 +34,7 @@ footer{
 
 header{
     background-color: black;
-    color: white;
+    color: rgba(255, 255, 255, 0.6);
     padding: 10px 0;
     
     width: 40px;
@@ -58,21 +58,34 @@ img{
 
 ul{
     list-style-type: none;
+    padding-left: 10px;
 }
 
-/*---------------------
-    HEADER - Side-bar
------------------------*/
+/*---------------
+      Color
+----------------*/
+.white{
+    color: white;
+}
 
-header a, span{
+/*!-----------------------*/
+    /*!HEADER - Side-bar*/
+/*!-----------------------*/
+
+header a, span, .playlist{
     display: none;
+}
+
+header a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+header span, header a{
+    margin: 10px;
 }
 
 .logo{
-    display: none;
-}
-
-.playlist{
     display: none;
 }
 
@@ -88,6 +101,9 @@ header img{
     gap: 5px;
 }
 
+.sidebar-bottom :nth-child(3) {
+    font-size: 18px;
+}
 
 
 
