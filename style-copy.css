@@ -16,7 +16,7 @@
 #Content{
     display: flex;
     overflow-y: auto;
-    height: calc(100vh - 80px);  
+    height: calc(100vh - 100px);  
 } 
 
 #Sidebar{
@@ -53,8 +53,10 @@ header{
 
 
 footer {
-    height: 80px;
-    background-color: gray;  
+    height: 100px;
+    background-color: gray; 
+    padding: 10px;
+    color: white;
 
     display: flex;
     justify-content: space-between;
@@ -213,8 +215,27 @@ header button{
 /*        FOOTER          */
 /*------------------------*/
 
-footer *{
+.left, 
+.midle,
+.right {
+    display: flex;
+    align-items: center;
     flex-basis: calc(100%/3 - 10px);
 }
+
+.music{
+    display: flex; 
+    align-items: center;  
+}
+
+.music img{
+    width: 20%;
+    margin-right: 5px;
+}
+
+footer p{
+    font-size: 12px;
+}
+
 
 
