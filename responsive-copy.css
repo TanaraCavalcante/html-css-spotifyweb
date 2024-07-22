@@ -42,6 +42,10 @@
     header button{
         font-size: 14px;
     }
+
+    #navbar ul{
+        font-size: 14px;
+    }
 }
 
 /*--------------------------

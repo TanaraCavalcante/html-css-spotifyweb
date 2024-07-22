@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 /*------------
      tags
 --------------*/
@@ -35,6 +36,7 @@ main{
     background-color: rgb(70, 68, 68);
     overflow: auto;
     font-size: 14px;
+    color: white;
 
 }
 
@@ -73,14 +75,10 @@ li{
     margin-bottom: 5px;
 }
 
-
-
-/*---------------
-      Color
-----------------*/
 .white{
     color: white;
 }
+
 
 /*-----------------------*/
 /*        SIDEBAR        */
@@ -154,8 +152,14 @@ header button{
 }
 
 #navbar {
-    color:  rgba(255, 255, 255, 0.6);
     font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+#navbar a{
+    color:  rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 
 #navbar ul{
@@ -164,6 +168,27 @@ header button{
     flex-wrap: wrap;
     justify-content: center;
 }
+
+#Recently{
+    display: flex;
+    flex-direction: column;  
+}
+
+#Recently .cards{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+
+#Recently .single-card {
+    
+}
+
+
+
+
+
 
 /*------------------------*/
 /*        FOOTER          */
