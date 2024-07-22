@@ -39,7 +39,9 @@
         font-size: 16px;
     }
 
-
+    header button{
+        font-size: 14px;
+    }
 /*--------------------------
  Responsive LG (1280 px) TV
  --------------------------*/
