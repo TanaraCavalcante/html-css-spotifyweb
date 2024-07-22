@@ -3,9 +3,9 @@
  ---------------------------*/
 
  @media screen and (min-width: 768px) {
-    header{
-        width: 150px;
-        align-items: start;
+    #Sidebar{
+        flex-basis: 150px;
+
     }
 
     .logo-small{
@@ -16,7 +16,7 @@
         display: block;
     }
 
-    header a, span{
+    #Sidebar a, span{
         display: inline;
     }
 
@@ -37,7 +37,7 @@
   Responsive MD (1024 px) PC
 ----------------------------*/
 @media screen and (min-width: 1024px){
-    header{
+    #Sidebar{
         width: 230px;
         font-size: 16px;
     }

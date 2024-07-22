@@ -4,15 +4,6 @@
     box-sizing: border-box;
 }
 
-.container{
-    margin: 0 auto;
-    width: 500px;
-}
-
-.fixed {
-    position: fixed;
-  }
-
 /*------------
      tags
 --------------*/
@@ -21,10 +12,41 @@
     border: 1px dashed yellowgreen;
 }
 
+#Content{
+    display: flex;
+    overflow-y: auto;
+    height: calc(100vh - 80px);
+
+    background-color: aqua;
+} 
+
+#Sidebar{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 12px;
+    
+    display: flex;
+    flex: 0 0 40px;
+
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 main{
-    height:calc(100vh - 80px);
+    flex: 1 1 auto;
     background-color: rgb(43, 41, 41);
     overflow: auto;
+}
+
+
+footer {
+    height: 80px;
+    background-color: gray;  
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 img{
@@ -55,34 +77,19 @@ button{
 }
 
 /*-----------------------*/
-/*  HEADER - Side-bar    */
+/*        SIDEBAR        */
 /*-----------------------*/
 
-header{
-    background-color: black;
-    color: rgba(255, 255, 255, 0.6);
-    padding: 10px 0;
-    font-size: 12px;
-    
-    width: 40px;
-    height: calc(100vh - 80px);
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header a, span, .playlist{
+#Sidebar a, span, .playlist{
     display: none;
 }
 
-header i{
+#Sidebar i{
     font-size: 18px;
     margin-right: 5px;
 }
 
-header a{
+#Sidebar a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -91,7 +98,7 @@ header a{
     display: none;
 }
 
-header img{
+#Sidebar img{
     width: 70%;
     margin: 20px 0;
 }
@@ -120,26 +127,6 @@ header img{
 /*       CONTENT         */
 /*-----------------------*/
 
-#content{
-    background-color: darkslategray;
-    flex-basis: 100%;
-    margin-left: 40px;
-}
-
-#upgrade{
-    height: 60px;
-    background-color: rgba(0, 0, 0, 0.745);
-    position: fixed;
-}
-
-
-
-
-
-
-
-
-
 
 
 
@@ -153,14 +140,6 @@ header img{
 /*        FOOTER          */
 /*------------------------*/
 
-footer {
-    height: 80px;
-    background-color: gray;  
-    gap: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 footer *{
     flex-basis: calc(100%/3 - 10px);
