@@ -34,7 +34,7 @@ main{
     flex: 1 1 auto;
     background-color: rgb(70, 68, 68);
     overflow: auto;
-    font-size: 12px;
+    font-size: 14px;
 
 }
 
@@ -154,14 +154,20 @@ header button{
 }
 
 #navbar {
-    height: 60px;           
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+    height: 80px;
+   
+    display: flex; 
+    justify-content: space-around;   
+
+    gap: 20px;
+      
 }
 
-#navbar *{
-    flex-basis: 100%;
+#navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc(100% / 3 - 20px);  
+      
 }
 
 
