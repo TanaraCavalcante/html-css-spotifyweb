@@ -62,6 +62,20 @@ footer {
     gap: 10px;
 }
 
+h2{
+    margin-bottom: 10px;
+}
+
+h3{
+   font-size: 1.1em;
+   margin-bottom: 5px;
+}
+
+p{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1em;
+}
+
 img{
     max-width: 100%;
 }
@@ -169,21 +183,26 @@ header button{
     justify-content: center;
 }
 
-#Recently{
+.recently,
+.playlist-user {
     display: flex;
     flex-direction: column;  
+    margin: 0 0 30px 10px;
+    gap: 20px;
+    
 }
 
-#Recently .cards{
+.cards{
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
-    
 }
 
-#Recently .single-card {
-    
+.single-card{
+    width: calc(50% - 10px);
+    text-align: center;
 }
+
 
 
 
