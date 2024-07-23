@@ -43,6 +43,9 @@
     p{
         font-size: 0.8em;
     }
+    .midle{
+        width: 55%;
+    }
 
  }
 
@@ -62,6 +65,9 @@
     #navbar ul{
         font-size: 14px;
     }
+    .midle{
+        width: 60%;
+    }
 }
 
 /*--------------------------
@@ -77,6 +83,10 @@
 
     p{
         font-size: 0.9em;
+    }
+
+    .midle{
+        width: 65%;
     }
 
  }
