@@ -210,6 +210,10 @@ header button{
     text-align: center;
 }
 
+.title-card{
+    margin-left: 15px;
+}
+
 .popular img{
     border-radius: 50%;
 }
@@ -262,6 +266,7 @@ footer p{
     align-items: center;
     gap: 15px;
 }
+
 
 
 
