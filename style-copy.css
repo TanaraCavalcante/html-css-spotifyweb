@@ -267,6 +267,58 @@ footer p{
     gap: 15px;
 }
 
+/*-------------------
+         BONUS
+--------------------*/
+
+.sidebar-top{
+    position: relative;
+}
+
+#Sidebar li.active::before{
+    content: '';
+    display: block;
+    border-left: 3px solid yellowgreen;
+    height: 20px;
+    position: absolute;
+    left: -1px;
+}
+
+#navbar li.active::after{
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: yellowgreen;
+    margin: 2px auto;
+    width: 50%;
+}
+
+
+.single-card figure {
+    position: relative;
+}
+
+.filter{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.559);
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.single-card:hover{
+   padding: 0px;
+}
+
+.single-card .filter:hover{
+   display: flex;
+}
+
 
 
 
