@@ -16,8 +16,12 @@
         display: block;
     }
 
-    #Sidebar a, span{
+    #Sidebar a, span, hr{
         display: inline;
+    }
+
+    .sidebar-bottom img{
+        width: 15%;
     }
 
     .sidebar-bottom{
@@ -33,7 +37,7 @@
     }
 
     .single-card{
-        width: calc(100% / 4 - 30px);
+        width: 25%;
     }
 
     h3{
@@ -50,16 +54,24 @@
  }
 
 /*---------------------------
-  Responsive MD (1024 px) PC
+  Responsive MD (1000 px) PC
 ----------------------------*/
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1000px){
     #Sidebar{
         flex-basis: 230px;
         font-size: 16px;
     }
 
+    .sidebar-top img {
+        width: 60%;
+     }
+
     header button{
         font-size: 14px;
+    }
+
+    .single-card{
+        width: calc(100%/6);
     }
 
     #navbar ul{
@@ -74,9 +86,7 @@
  Responsive LG (1200 px) TV
  --------------------------*/
  @media screen and (min-width: 1200px){
-    .single-card{
-        width: calc(100% / 6 - 50px);
-    }
+   
     h3{
         font-size: 1.1em;
     }
